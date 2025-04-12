@@ -101,9 +101,13 @@ print(f"The correct codeword is : " + " " .join(map(str,add)))
 ## CALCULATION
 ![WhatsApp Image 2025-04-12 at 4 03 03 PM](https://github.com/user-attachments/assets/a11c90bb-0257-415c-86f4-4026c4aab7d1)
 ![WhatsApp Image 2025-04-12 at 4 03 04 PM](https://github.com/user-attachments/assets/6aa1c134-9a5f-4f73-acf7-03c9d6e58e13)
+
 ![WhatsApp Image 2025-04-12 at 4 03 04 PM (1)](https://github.com/user-attachments/assets/f93ce9ee-8a59-45f8-b34e-2ec8c55f5b68)
 
 
+
+
 ## RESULTS:
+
 Thus,Linear Block Code for the Given input is successfully verified
 
