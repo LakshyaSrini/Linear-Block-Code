@@ -49,10 +49,10 @@ print('The Generator Matrix is: ')
 for r in g_mat: 
   print(" ".join(map(str, r)))
 print('')
-print(f'Message Bits  Codeword   Hamming Weight')
+print(f'Message Bits      Codeword     Hamming Weight')
 code_word = np.hstack((m, c, h_mat.T))
 for r in range(code_word.shape[0]):
-  format_row = " ".join(map(str, code_word[r, :k])) + '\t' + " ".join(map(str, code_word[r, k:n+k])) + '\t' + str(code_word[r, -1])
+  format_row = " ".join(map(str, code_word[r, :k])) + '\t\t' + " ".join(map(str, code_word[r, k:n+k])) + '\t\t' + str(code_word[r, -1])
   print(format_row)
 print('')
 print(f'Minimum Hamming distance : {d_min}')
